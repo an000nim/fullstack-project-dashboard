@@ -1,0 +1,15 @@
+{
+  "name": "project-dashboard-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg-promise": "^11.10.2"
+  }
+}
